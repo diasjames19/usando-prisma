@@ -1,0 +1,26 @@
+{
+  "name": "prisma2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/diasjames19/usando-prisma.git"
+  },
+  "author": "jamesalvesdias37 <James_Alves_Dias@hotmail.com>",
+  "license": "MIT",
+  "description": "-Nodejs\r -Prisma\r -SQLite(Banco)",
+  "bugs": {
+    "url": "https://github.com/diasjames19/usando-prisma/issues"
+  },
+  "homepage": "https://github.com/diasjames19/usando-prisma#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "prisma": "^4.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

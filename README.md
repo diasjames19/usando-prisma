@@ -3,6 +3,6 @@
 ## Mini Projeto TypesScript com Prisma - Back-End
 
 ### Tecnologias utilizadas
--Nodejs
--Prisma
--SQLite(Banco)
+-Nodejs v18.13
+-Prisma v2
+-Banco
