@@ -1,0 +1,13 @@
+{{>partials/header}}
+<form method="POST" action="" >
+                <lebel id="lbcampo">Placa:</lebel><input id='txtCampo' type='text' name='firstname' placeholder="Digite a placa que procura"/><br/>
+            </form>
+            <input id="btnInserir" type='submit' value='Procurar'/></br>
+        </fieldset>
+<hr>
+<br/>
+{{#result}}
+{{>partials/listarDados}}
+{{/result}}
+<br/>
+{{>partials/footer}}
