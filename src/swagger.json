@@ -1,0 +1,59 @@
+{
+    "openapi":"3.0.0",
+    "info":{
+        "title":"API de busca de Placas",
+        "description":"Essa API tem como objetivo, testar o back-end. Também será usada como portifolio para os recruter",
+        "termsOfService":"http://localhost:4002/terms",
+        "contact":{
+            "email":"diasjames@hotmail.com"
+        },
+        "version":"1.0.0"
+    },
+    
+
+    "servers":[
+        {
+            "url":"http://localhost:4002/v1",
+            "description":"TESTE BACK-END"
+        }
+    ],
+    "basePath":"/",
+    "paths":{
+        "/":{
+            "get":{
+                "sumary":"Busca de Placa",
+                "description":"Rota respossavel em retornar dados do Morador pela Placa",
+                "parameters":[
+                    {
+                    "in":"query",
+                    "description":"Morador por Placa",
+                    "requered":true,
+                    "name":"placa",
+                    "type":"string"
+                }
+            ],
+            "responses":{
+                "200":{
+                    "description":"OK",
+                    "content":{
+                        "application/jason":{
+                            "schema":{
+                                "type":"object",
+                                "items":{
+                                        "Nome":"string",
+                                        "TorreId":"numeber",
+                                        "Unidade":"number"
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+                }
+            }
+            
+    }
+    
+}
