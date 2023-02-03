@@ -12,9 +12,11 @@ const prisma = new PrismaClient()
             Placa:req.body.txtPlaca//'RPI8I79'
         },
         include:{
-            Morador :true,    
-        }
+            Morador :true,     
+       } 
+
   });
+
   console.log(dadosMorador,"fim")
     res.render('pages/buscar',{
         tituloPagina: 'Dados da Pesquisa', 
