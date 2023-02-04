@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $white-bianca;
+    padding: 0.5rem;
+    margin: 6.8rem 0 0 0;
+    .footer-app {
+        padding: 0.6rem;
+        margin: 0;
+        .footer-dev {
+            text-decoration: none;
+            color: $dark-blue-stratos;
+            font-weight: 500;
+        }
+    }
+}
