@@ -1,0 +1,22 @@
+@import '../../styles/abstract/variables';
+
+main {
+    .subtitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 4rem 0 0 0;
+        h2 {
+            color: $white-bianca;
+            text-shadow: 0.1rem 0.2rem 0.1rem $dark-gray-shaft;
+            font-size: $font-size + 1;
+        }
+        p {
+            color: $dark-gray-shaft;
+            font-weight: 600;
+            font-size: $font-size /2;
+        }
+    }
+}
+   
