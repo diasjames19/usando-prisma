@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.body-app{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#txtDesc{
+    font-weight: 200px;
+    font-size: 1.2em;
+    font-family: Arial, 'Helvetica', sans-serif;
+}

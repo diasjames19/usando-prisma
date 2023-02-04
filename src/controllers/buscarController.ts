@@ -17,7 +17,6 @@ const prisma = new PrismaClient()
 
   });
 
-  console.log(dadosMorador,"fim")
     res.render('pages/buscar',{
         tituloPagina: 'Dados da Pesquisa', 
         dadosMorador
