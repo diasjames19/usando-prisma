@@ -25,18 +25,27 @@
                 <span>PLACA</span>
             </h1>
             <ul>
+                <li><a href="#">CONSULTAR</a></li>
                 <li><a href="#">SOBRE</a></li>
+                <li><a href="#">F.A.Q</a></li>
                 <li><a href="#">CONTATO</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="container-main">
+            <div class="subtitle">
+                <h2>Consulta Veicular</h2>
+                <p>A maneira mais simples e rápida de buscar informações de um veículo através da placa</p>
+            </div>
             <div class="body-app">
                 <div class="buscForm">
                     <form method="POST" action="/buscar" >
-                        <lebel id="lbcampo">Placa:</lebel><input id='txtCampo' type='text' name='txtPlaca' placeholder="Digite a placa que procura"/><br/>
-                        <input id="btnInserir" type='submit' value='Procurar'/>
+                        <label id="lbcampo">Informe a placa do veículo:</label><br>
+                        <input id='txtCampo' type='text' name='txtPlaca' placeholder="KFM2349"/>
+                        <div class="btn-submit">
+                            <input id="btnInserir" type='submit' value='Consultar Placa'/>
+                        </div>      
                     </form>
                 </div>
             </div>        
