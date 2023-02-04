@@ -1,1 +1,58 @@
-/*# sourceMappingURL=style.css.map */
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+html, body {
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* header {
+  background-color: #001257;
+}
+* header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* header nav h1 {
+  margin: 1rem 0 1rem 3rem;
+  color: #FEFEFB;
+  font-size: 3rem;
+  line-height: 2.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+* header nav h1 span {
+  margin: 0 0 0 0.2rem;
+  transition: all 0.5s;
+}
+* header nav h1:hover {
+  transform: scale(0.8);
+}
+* header nav li {
+  display: inline-block;
+  margin: 0 3rem 0 0;
+}
+* header nav a {
+  text-decoration: none;
+  color: #FEFEFB;
+  font-size: 1.5rem;
+}
+* header nav a:hover {
+  transition: all 0.2s;
+  color: #FFB600;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
