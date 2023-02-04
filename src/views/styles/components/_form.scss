@@ -1,0 +1,46 @@
+.body-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .buscForm {
+        padding: 2rem .5rem .4rem .5rem;
+        margin: 2rem 0 0 0;
+        text-align: center;
+        background-color: $dark-blue-stratos;
+        border: 0.2rem solid $dark-gray-shaft;
+        border-radius: .5rem;
+        color: $dark-gray-shaft;
+        text-transform: uppercase;
+        font-size: $font-size / 1.9;
+        font-weight: 600;
+        form {
+            background-color: $white-bianca;
+            padding: 2rem 6rem;
+            #txtCampo  {
+                padding: 0.5rem 1rem;
+                margin: .5rem 0 .5rem 0;
+                border: 0.01rem solid $dark-gray-shaft;
+                border-radius: 0.3rem;
+            }
+            #btnInserir {
+                padding: 0.3rem 2.3rem;
+                margin: .2rem 0 .5rem 0;
+                border: .1rem solid $yellow-selective;
+                border-radius: .3rem;
+                background-color: $yellow-selective;
+                font-family: $font;
+                color: $dark-blue-stratos;
+                font-weight: 900;
+                font-size: $font-size / 2.5;
+                cursor: pointer;
+                transition: all 0.5s;
+
+            }
+            #btnInserir:hover {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+    }
+}
