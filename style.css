@@ -123,4 +123,22 @@ main .subtitle p {
 }
 .body-app .buscForm form #btnInserir:hover {
   transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FEFEFB;
+  padding: 0.5rem;
+  margin: 6.8rem 0 0 0;
+}
+footer .footer-app {
+  padding: 0.6rem;
+  margin: 0;
+}
+footer .footer-app .footer-dev {
+  text-decoration: none;
+  color: #001257;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
