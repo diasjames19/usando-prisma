@@ -4,6 +4,7 @@
 /* Colors */
 html, body {
   font-family: "Rajdhani", sans-serif;
+  background-color: #ccc;
 }
 
 /* Typography */
@@ -55,4 +56,71 @@ html, body {
   transition: all 0.2s;
   color: #FFB600;
   font-weight: 700;
+}
+
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+main .subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4rem 0 0 0;
+}
+main .subtitle h2 {
+  color: #FEFEFB;
+  text-shadow: 0.1rem 0.2rem 0.1rem #292424;
+  font-size: 4rem;
+}
+main .subtitle p {
+  color: #292424;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.body-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-app .buscForm {
+  padding: 2rem 0.5rem 0.4rem 0.5rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  background-color: #001257;
+  border: 0.2rem solid #292424;
+  border-radius: 0.5rem;
+  color: #292424;
+  text-transform: uppercase;
+  font-size: 1.5789473684rem;
+  font-weight: 600;
+}
+.body-app .buscForm form {
+  background-color: #FEFEFB;
+  padding: 2rem 6rem;
+}
+.body-app .buscForm form #txtCampo {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  border: 0.01rem solid #292424;
+  border-radius: 0.3rem;
+}
+.body-app .buscForm form #btnInserir {
+  padding: 0.3rem 2.3rem;
+  margin: 0.2rem 0 0.5rem 0;
+  border: 0.1rem solid #FFB600;
+  border-radius: 0.3rem;
+  background-color: #FFB600;
+  font-family: "Rajdhani", sans-serif;
+  color: #001257;
+  font-weight: 900;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.body-app .buscForm form #btnInserir:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
