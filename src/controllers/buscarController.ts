@@ -6,17 +6,23 @@ import console from "console";
 
 const prisma = new PrismaClient()
   export const buscar = async (req:Request, res:Response)=>{
-    let  dadosMorador = await prisma.veiculo.findFirst({
+   
+    
+    let  dadosMorador = await prisma.prestador.findFirst({
+     
+      where:{
+        Nome:req.body.txtPlaca ,//'RPI8I79' 
+      },
 
-        where:{
-            Placa:req.body.txtPlaca//'RPI8I79'
-        },
+      
         include:{
-            Morador :true,     
-       } 
+          Funcao :true, 
+                
+       }
 
   });
 
+    //console.log(dadosMorador)
     res.render('pages/buscar',{
         tituloPagina: 'Dados da Pesquisa', 
         dadosMorador

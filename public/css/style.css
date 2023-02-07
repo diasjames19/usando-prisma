@@ -1,0 +1,161 @@
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+html, body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: #ccc;
+}
+
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* header {
+  background-color: #001257;
+}
+* header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* header nav h1 {
+  margin: 1rem 0 1rem 3rem;
+  color: #FEFEFB;
+  font-size: 3rem;
+  line-height: 2.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+* header nav h1 span {
+  margin: 0 0 0 0.2rem;
+  transition: all 0.5s;
+}
+* header nav h1:hover {
+  transform: scale(0.8);
+}
+* header nav li {
+  display: inline-block;
+  margin: 0 3rem 0 0;
+}
+* header nav a {
+  text-decoration: none;
+  color: #FEFEFB;
+  font-size: 1.5rem;
+}
+* header nav a:hover {
+  transition: all 0.2s;
+  color: #FFB600;
+  font-weight: 700;
+}
+
+/* Typography */
+/* Font size */
+/* Font line-height */
+/* Colors */
+main .subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4rem 0 0 0;
+}
+main .subtitle h2 {
+  color: #FEFEFB;
+  text-shadow: 0.1rem 0.2rem 0.1rem #292424;
+  font-size: 4rem;
+}
+main .subtitle p {
+  color: #292424;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.body-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-app .buscForm {
+  padding: 2rem 0.5rem 0.4rem 0.5rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  background-color: #001257;
+  border: 0.2rem solid #292424;
+  border-radius: 0.5rem;
+  color: #292424;
+  text-transform: uppercase;
+  font-size: 1.5789473684rem;
+  font-weight: 600;
+}
+.body-app .buscForm form {
+  background-color: #FEFEFB;
+  padding: 2rem 6rem;
+}
+.body-app .buscForm form #txtCampo {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  border: 0.01rem solid #292424;
+  border-radius: 0.3rem;
+}
+.body-app .buscForm form #btnInserir {
+  padding: 0.3rem 2.3rem;
+  margin: 0.2rem 0 0.5rem 0;
+  border: 0.1rem solid #FFB600;
+  border-radius: 0.3rem;
+  background-color: #FFB600;
+  font-family: "Rajdhani", sans-serif;
+  color: #001257;
+  font-weight: 900;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.body-app .buscForm form #btnInserir:hover {
+  transform: scale(1.1);
+}
+table {
+  font-family: "Rajdhani", sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  height: 150px;
+  margin-left: 60px;
+}
+
+td, th {
+  border: 1px solid #001257;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #001257;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FEFEFB;
+  padding: 0.5rem;
+  margin: 6.8rem 0 0 0;
+}
+footer .footer-app {
+  padding: 0.6rem;
+  margin: 0;
+}
+footer .footer-app .footer-dev {
+  text-decoration: none;
+  color: #001257;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
